@@ -1,0 +1,23 @@
+{
+    "productId": "2",
+    "suggestions": [
+        {
+            "id" : "",
+            "name": "Infosys Bottle - Black",
+            "price": "$18.99",
+            "images": "productYouMayLike_1.png"
+        },
+        {
+            "id" : "",
+            "name": "Infosys Bottle - Blue",
+            "price": "$19.99",
+            "images": "productYouMayLike_2.png"
+        },
+        {
+            "id" : "",
+            "name": "Infosys Bottle - Red",
+            "price": "$19.99",
+            "images": "productYouMayLike_3.png"
+        }
+    ]
+}

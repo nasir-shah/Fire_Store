@@ -1,0 +1,82 @@
+{
+    "id": "3",
+    "name": "PHI naturals Vitamin D 3",
+    "title": "360 Softgel capsules",
+    "description": "PHI natural vitamin D3 provides this key vitamin in a highly absorbable liquid softgel",
+    "productflavour": "",
+    "productDimension": "5”x 3.5”",
+    "productLocationCity": "Florida",
+    "productLocationCounty": "USA",
+    "productRatingImg": "rating4.png",
+    "productRatingValue": "4.5",
+    "productReviewCount": "115",
+    "cost": "34.35",
+    "productPromotionPercentage": "15",
+    "productWeight": "1 pound",
+    "productManufactureDate": "8/8/2018",
+    "productBestBefore": "30/12/2020",
+    "imageUrl": [
+        "1.png",
+        "2.png",
+        "3.png"
+    ],
+    "productNutrients": [
+      {
+        "value": "",
+        "unit": "",
+        "name": "Vitamin D3 1000 IU (as cholecalciferol) (from lanolin)",
+        "percentage": "250%"
+      }
+    ],
+    "productDailyValueFeatures1": [
+      {
+        "name": "Vitamin D3 1000 IU (as cholecalciferol) (from lanolin)",
+        "value": "",
+        "unit": "",
+        "images": ""
+      }
+    ],
+    "productDailyValueFeatures2": [
+      {
+        "name": "Immune system support",
+        "value": "",
+        "unit": "",
+        "images": "productfeatures2_1.png"
+      },
+      {
+        "name": "Strong bone structure support",
+        "value": "",
+        "unit": "",
+        "images": "productfeatures2_2.png"
+      }
+    ],
+    "productDailyValueFeatures3": [
+      {
+        "name": "Soft capsule (gelatin,glycerin and purified water)",
+        "value": "",
+        "unit": "",
+        "images": ""
+      }
+    ],
+    "productDailyValueFeatures4": [
+        {
+            "name": "Contains Milk and Soy Ingredients",
+            "value": "",
+            "unit": "",
+            "images": "productfeatures4_1.png"
+        },
+        {
+            "name": "Gluten free",
+            "value": "",
+            "unit": "",
+            "images": "productfeatures4_2.png"
+        }
+    ],
+    "productHowToUse": [
+        {
+            "content": "As a dietary suppliment take one to two softgels daily or as directed by your healthcare provider",
+            "images": "productHowToUse_1.png",
+            "video": ""
+        }
+    ]
+}

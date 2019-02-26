@@ -1,0 +1,68 @@
+[{
+  "activeNonActive": [
+    {
+      "active": "3",
+      "inactive": "1",
+      "underService": "1"
+    }
+  ],
+  "heavyDutyCameras": [
+    {
+      "name": "Entrance",
+      "status": "active",
+      "count": "32 - 40"
+    },
+    {
+      "name": "Aisle 1",
+      "status": "active",
+      "count": "10 - 20"
+    },
+    {
+      "name": "Aisle 2",
+      "status": "service",
+      "count": " - "
+    },
+    {
+      "name": "Aisle 3",
+      "status": "active",
+      "count": "10 - 20"
+    },
+    {
+      "name": "Checkout",
+      "status": "active",
+      "count": "20 - 25"
+    }
+  ],
+  "camerasTypes": [
+    {
+      "name": "ceiling",
+      "image": "camera_type_1",
+      "count": "5"
+    },
+    {
+      "name": "Hanging",
+      "image": "camera_type_2",
+      "count": "3"
+    },
+    {
+      "name": "Above Shelf",
+      "image": "camera_type_3",
+      "count": "2"
+    }
+  ],
+  "camerasTypesImg": "cameras_types_img",
+  "networkValueStart": "40",
+  "networkValueEnd": "60",
+  "networkUnit": "mbps",
+  "electricityStatus": "100%",
+  "clarityStatus": [
+    {
+      "name": "Focused",
+      "count": "3"
+    },
+    {
+      "name": "Not Focused",
+      "count": "2"
+    }
+  ]
+}]

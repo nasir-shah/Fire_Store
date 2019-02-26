@@ -1,0 +1,23 @@
+{
+    "productId": "1",
+    "suggestions": [
+        {
+            "id" : "",
+            "name": "Green Apple",
+            "price": "$ 45.80",
+            "images": "productYouMayLike_1.png"
+        },
+        {
+            "id" : "",
+            "name": "Cinaut Grape",
+            "price": "$ 35.90",
+            "images": "productYouMayLike_2.png"
+        },
+        {
+            "id" : "",
+            "name": "Chocolate",
+            "price": "$ 54.23",
+            "images": "productYouMayLike_3.png"
+        }
+    ]
+}

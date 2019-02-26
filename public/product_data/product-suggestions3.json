@@ -1,0 +1,23 @@
+{
+    "productId": "3",
+    "suggestions": [
+        {
+            "id" : "",
+            "name": "240 softgel capsule",
+            "price": "$15.15",
+            "images": "productYouMayLike_1.png"
+        },
+        {
+            "id" : "",
+            "name": "60 softgel capsule",
+            "price": "$32.68",
+            "images": "productYouMayLike_2.png"
+        },
+        {
+            "id" : "",
+            "name": "180 softgel capsule",
+            "price": "$10.38",
+            "images": "productYouMayLike_3.png"
+        }
+    ]
+}

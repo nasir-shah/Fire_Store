@@ -1,0 +1,116 @@
+[
+  {
+  "id": "1",
+  "inventroyCatName": "Health & Fitness",
+  "inventroyCatImg": "shelf_stock_1.png",
+  "inventroyCatStatus": "active",
+  "shelfStock": [
+    {
+      "img": "shelf_stock_1.png",
+      "video": "shelf_stock_1.mp4"
+    },
+    {
+      "img": "shelf_stock_2.png",
+      "video": "shelf_stock_2.mp4"
+    }
+  ],
+  "misplaced": [
+    {
+      "productName": "Infosys Bottle",
+      "productImg": "product_1.png",
+      "status": "misplaced",
+      "currentLocation": "Aisle A1, Shelf 3",
+      "moveTo": "Aisle A1, Shelf 2"
+    },
+    {
+      "productName": "On Whey Powder",
+      "productImg": "product_2.png",
+      "status": "misplaced",
+      "currentLocation": "Aisle A2, Shelf 10",
+      "moveTo": "Aisle B1, Shelf 5"
+    }
+  ],
+  "store": [
+    {
+      "name": "On Whey Powder",
+      "count": "4",
+      "containerType": "Bottles"
+    },
+    {
+      "name": "Infosys Bottle",
+      "count": "3",
+      "containerType": "Bottles"
+    }
+  ],
+  "warehouse": [
+    {
+      "name": "On Whey Powder",
+      "count": "96",
+      "containerType": "Bottles"
+    },
+    {
+      "name": "Infosys Bottle",
+      "count": "10",
+      "containerType": "Bottles"
+    }
+  ],
+  "issueStack": [
+    {
+      "name": "Infosys Bottle ",
+      "summary": "Leaky in Nature",
+      "detail": "Returned 5 Bottles",
+      "info_msg": "inform center"
+    },
+    {
+      "name": "On Whey Powder",
+      "summary": "Expired Product",
+      "detail": "Expired",
+      "info_msg": "inform center"
+    }
+  ],
+  "topSelling": [
+    {
+      "name": "Infosys Bottle",
+      "img": "top_selling_1.png",
+      "position": "Aisle A1, Shelf 2"
+    },
+    {
+      "name": "On Whey Powder",
+      "img": "top_selling_2.png",
+      "position": "Aisle B1, Shelf 5"
+    },
+    {
+      "name": "PHI Naturals Vitamin D3",
+      "img": "top_selling_3.png",
+      "position": "Aisle A1, Shelf 11"
+    }
+  ],
+  "reorders": [
+    {
+      "name": "400 Infosys Bottle",
+      "time": "ETA 18th Jan ‘19",
+      "status": "Shipped",
+      "statusIcon": "shipped"
+    },
+    {
+      "name": "250 On Whey Powder",
+      "time": "ETA 14th Feb ‘19",
+      "status": "Reorder Confirmed",
+      "statusIcon": "confirmed"
+    }
+  ],
+  "upcomingEvents": [
+    {
+      "name": "Super Bowl Health challenge",
+      "summary": "Inventory Stocked",
+      "time": "Tomorrow",
+      "icon": "event_1.png"
+    },
+    {
+      "name": "Big Billion Day",
+      "summary": "Inventory Needed",
+      "time": "1 Mar ’19 – 3 Apr ‘19",
+      "icon": "event_2.png"
+    }
+  ]
+}]

@@ -1,0 +1,221 @@
+[
+  {
+  "id": "1",
+  "type": "customer",
+  "salesTarget": [
+    {
+      "min": "0",
+      "max": "20000",
+      "current": "12796",
+      "status": "Achieved",
+      "day": "Today"
+    }
+  ],
+  "productCategory": [
+    {
+      "catName": "Health & Fitness",
+      "amount": "27928",
+      "catImg": "health.png",
+      "catSellingProduct": [
+        {
+          "productName": "Infosys Bottle",
+          "productImg": "health_product_1.png",
+          "soldCount": "200",
+          "pricePerProduct": "2000",
+          "sellingStatus": "selling well"
+        },
+        {
+          "productName": "Perfume A",
+          "productImg": "health_product_2.png",
+          "soldCount": "26",
+          "pricePerProduct": "160",
+          "sellingStatus": "selling well"
+        }
+      ]
+    },
+    {
+      "catName": "Cosmetics & Lifestyle",
+      "amount": "60342",
+      "catImg": "cosmetics.png",
+      "catSellingProduct": [
+        {
+          "productName": "Infosys Bottle 1",
+          "productImg": "health_product_1.png",
+          "soldCount": "200",
+          "pricePerProduct": "2000",
+          "sellingStatus": "selling well"
+        },
+        {
+          "productName": "Perfume A",
+          "productImg": "health_product_2.png",
+          "soldCount": "200",
+          "pricePerProduct": "0000",
+          "sellingStatus": "not selling"
+        }
+      ]
+    },
+    {
+      "catName": "Groceries",
+      "amount": "32154",
+      "catImg": "vegitables.png",
+      "catSellingProduct": [
+        {
+          "productName": "Infosys Bottle 1",
+          "productImg": "health_product_1.png",
+          "soldCount": "200",
+          "pricePerProduct": "2000",
+          "sellingStatus": "selling well"
+        },
+        {
+          "productName": "Perfume A",
+          "productImg": "health_product_2.png",
+          "soldCount": "0",
+          "pricePerProduct": "0000",
+          "sellingStatus": "not selling"
+        }
+      ]
+    }
+  ],
+  "promotions": [
+    {
+      "name": "Mom @ Ease",
+      "icon_image": "promotions_1.png",
+      "startDate": "10 Jan 2019",
+      "endDate": "28 Feb 2019",
+      "salesTarget": "200000",
+      "footfallTarget": "200",
+      "groupTarget": "Mothers"
+    }
+  ],
+  "complains": [
+    {
+      "name": "No fresh produce on grocery aisle"
+    },
+    {
+      "name": "No associate at promotion to assist"
+    },
+    {
+      "name": "Vitamin C not available on shelf A1 S3"
+    },
+    {
+      "name": "Associate staff1 not friendly"
+    }
+  ],
+  "customerBehavior": [
+    {
+      "actualBuyer": "15",
+      "nonBuyers": "30",
+      "workingRatio": "12 : 45",
+      "avgSalesPurchase": "50.89",
+      "itemPerPurchase": "8",
+      "walkInRatio": "5:8"
+    }
+  ],
+  "specialOffers": [
+    {
+      "name": "Infosys Bottle",
+      "icon_image": "special_offers_1.png",
+      "offerMsg": "10% Discount"
+    },
+    {
+      "name": "Perfume A",
+      "icon_image": "health_product_2.png",
+      "offerMsg": "Buy 1 get 1"
+    },
+    {
+      "name": "Buy ON Whey and Phi Natural Vitamin D supplement",
+      "icon_image": "special_offers_1.png",
+      "offerMsg": "Get Infosys Bottle Free"
+    }
+  ],
+  "customerSentiments": [
+    {
+      "time": "8:00am",
+      "values": "4"
+    },
+    {
+      "time": "11:00am",
+      "values": "7"
+    },
+    {
+      "time": "2:00pm",
+      "values": "5"
+    },
+    {
+      "time": "5:00pm",
+      "values": "8"
+    },
+    {
+      "time": "8:00pm",
+      "values": "7"
+    }
+  ],
+  "todaysFootfall": [
+    {
+      "week": "1738",
+      "month": "3987",
+      "year": "78929",
+      "totalFootfall": "750",
+      "recurringConsumers": "10%",
+      "female": "400",
+      "male": "300",
+      "others": "50"
+    }
+  ],
+  "todaysFootfallAgeRange": [
+    {
+      "age": "0-18 Yrs",
+      "values": "50"
+    },
+    {
+      "age": "19-25 Yrs",
+      "values": "100"
+    },
+    {
+      "age": "26-40 Yrs",
+      "values": "350"
+    },
+    {
+      "age": "41-65 Yrs",
+      "values": "200"
+    },
+    {
+      "age": "66-100 Yrs",
+      "values": "50"
+    }
+  ],
+  "todaysFootfallPeakHourData": [
+    {
+      "time": "8:00",
+      "values": "10"
+    },
+    {
+      "time": "10:00",
+      "values": "12"
+    },
+    {
+      "time": "12:00",
+      "values": "8"
+    },
+    {
+      "time": "14:00",
+      "values": "20"
+    },
+    {
+      "time": "16:00",
+      "values": "15"
+    },
+    {
+      "time": "18:00",
+      "values": "8"
+    },
+    {
+      "time": "20:00",
+      "values": "20"
+    },
+    {
+      "time": "22:00",
+      "values": "15"
+    }
+  ]
+}]

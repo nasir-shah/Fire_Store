@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>Campaign Dashbaord</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link href="assets/css/aos.css" rel="stylesheet" />
+</head>
+
+<body class="retail_dashboard">
+    <section class="campaign_section">
+
+        <nav class="nav navbar campaign_nav">
+            <div class="container-fluid nav_spacing h_100">
+                <div class="nav_content h_100">
+                    <a href="#" class="nav_logo">
+                        <h2 class="text_brand">Campaign Management Dashboard</h2>
+                    </a>
+                    <div class="campaign_profile">
+                        <div class="key_contact">
+                            <p class="key_contact_text">
+                                Key contact -
+                                <span class="contact_name">Mr. John Doe</span>
+                            </p>
+                        </div>
+                        <!-- /key_contact -->
+                        <div class="contact_profile">
+                            <img src="assets/images/user_pic.png" class="img-responsive">
+                        </div>
+                    </div>
+                    <!-- /campaign_profile -->
+                </div>
+                <!-- /nav_content -->
+            </div>
+            <!-- /container-fluid -->
+        </nav>
+        <!-- /campaign_nav -->
+
+
+        <main class="main_dashboard campaign_dashboard">
+            <div class="first_left_campaign">
+                <div class="top_promotion_nav">
+                    <ul class="promotion_ul">
+                        <li>
+                            <p class="promotion_text">Mom @ ease</p>
+                        </li>
+                        <li>
+                            <p class="promotion_text">Status</p>
+                        </li>
+                        <li>
+                            <p class="promotion_text">2 Week campaign</p>
+                        </li>
+                        <li>
+                            <p class="promotion_text">All Products</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /top_promotion_nav -->
+
+                <div class="campaign_footfall_analysis_graph">
+                    <div class="overlay">
+                        <div id="campaign_data_box_data" class="campaign_data_box">
+                            <!-- data here  -->
+                        </div>
+                    </div>
+                    <img src="assets/images/analysis_graph.png" id="analysis_main" class="analysis_main img-responsive">
+                    <img src="assets/images/analysis_graph_transparent.png" id="analysis_1" class="analysis_img img-responsive">
+                    <img src="assets/images/analysis_graph_transparent.png" id="analysis_2" class="analysis_img img-responsive">
+                    <img src="assets/images/analysis_graph_transparent.png" id="analysis_3" class="analysis_img img-responsive">
+                    <img src="assets/images/analysis_graph_transparent.png" id="analysis_4" class="analysis_img img-responsive">
+                    <img src="assets/images/analysis_graph_transparent.png" id="analysis_5" class="analysis_img img-responsive">
+
+
+                </div>
+                <!-- /campaign_footfall_analysis_graph -->
+
+                <div class="footfall_analysis_bar">
+                    <div class="bar_graph_slide">
+                        <div class="bar_graph_div bar_1">
+                            <img src="assets/images/bar_campaign.png" class="img-responsive">
+                        </div>
+                        <div class="bar_graph_div bar_2">
+                            <img src="assets/images/bar_campaign.png" class="img-responsive">
+                        </div>
+                        <div class="bar_graph_div bar_3">
+                            <img src="assets/images/bar_campaign.png" class="img-responsive">
+                        </div>
+                    </div>
+                    <!-- /bar_graph_slide -->
+                </div>
+                <!-- /footfall_analysis_bar -->
+
+            </div>
+            <!-- /first_left_campaign -->
+
+            <div class="sec_right_campaign">
+
+                <div class="competitor_movements">
+                    <h3 class="campaign_title">Competitor movements</h3>
+                    <div class="competitor_movements_slide">
+                        <div class="competitor_content competitor_movements_1">
+                            <p class="para_text_normal campaign_text_para">Competitor 1 offering a discount of #5% with ashaker free for each Whey Drink</p>
+                        </div>
+                        <div class="competitor_content competitor_movements_1">
+                            <p class="para_text_normal campaign_text_para">Competitor 1 offering a discount of #5% with ashaker free for each Whey Drink</p>
+                        </div>
+                        <div class="competitor_content competitor_movements_1">
+                            <p class="para_text_normal campaign_text_para">Competitor 1 offering a discount of #5% with ashaker free for each Whey Drink</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /competitor_movements-->
+
+                <div class="popular_and_social_divs">
+                    <div class="content_box products_div">
+                        <h3 class="campaign_title">Popular products</h3>
+                        <div class="product_div">
+                            <div class="product_data_slide product_slider_1">
+                                <div class="inline_flex">
+                                    <div class="product_pic">
+                                        <img src="assets/images/product_campaign.png" class="img-responsive">
+                                    </div>
+                                    <div class="campaign_product_content">
+                                        <p class="camplaign_product_name campaign_product_para">On Whey Powder</p>
+                                        <p class="camplaign_product_flavour campaign_product_para">Double Rich Chocolate</p>
+                                        <p class="camplaign_product_price campaign_product_para">$ 74.99</p>
+                                        <div class="rating_img">
+                                            <img src="assets/images/campaign_ratting.png" class="img-responsive">
+                                        </div>
+                                        <div class="progress_sold">
+                                            <!--<img src="assets/images/progress_sold.png" class="img-resposive">-->
+                                            <div class="progresss_status product_sold_progress product_sold_progress_1">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="max-width: 90%">
+                                                        <span class="title">90% Sold</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /progresss_status -->
+                                        </div>
+                                    </div>
+                                    <!-- /campaign_product_content -->
+                                </div>
+                                <!-- /inline_flex -->
+                            </div>
+                            <!-- /product_data_slide -->
+
+                            <div class="product_data_slide product_slider_2">
+                                <div class="inline_flex">
+                                    <div class="product_pic">
+                                        <img src="assets/images/product_campaign.png" class="img-responsive">
+                                    </div>
+                                    <div class="campaign_product_content">
+                                        <p class="camplaign_product_name campaign_product_para">Infosys Bottle (Model Info:SF073)</p>
+                                        <p class="camplaign_product_flavour campaign_product_para">Thermos Insulated /Hot / Cold</p>
+                                        <p class="camplaign_product_price campaign_product_para">$ 19.99</p>
+                                        <div class="rating_img">
+                                            <img src="assets/images/campaign_ratting.png" class="img-responsive">
+                                        </div>
+                                        <div class="progress_sold">
+                                            <div class="progresss_status product_sold_progress product_sold_progress_2">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="max-width: 70%">
+                                                        <span class="title">70% Sold</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /progresss_status -->
+                                        </div>
+                                    </div>
+                                    <!-- /campaign_product_content -->
+                                </div>
+                                <!-- /inline_flex -->
+                            </div>
+                            <!-- /product_data_slide -->
+
+                            <div class="product_data_slide product_slider_3">
+                                <div class="inline_flex">
+                                    <div class="product_pic">
+                                        <img src="assets/images/product_campaign.png" class="img-responsive">
+                                    </div>
+                                    <div class="campaign_product_content">
+                                        <p class="camplaign_product_name campaign_product_para">PHI naturals Vitamin D 3</p>
+                                        <p class="camplaign_product_flavour campaign_product_para">360 Softgel capsules</p>
+                                        <p class="camplaign_product_price campaign_product_para">$ 34.35</p>
+                                        <div class="rating_img">
+                                            <img src="assets/images/campaign_ratting.png" class="img-responsive">
+                                        </div>
+                                        <div class="progress_sold">
+                                            <div class="progresss_status product_sold_progress product_sold_progress_3">
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="max-width: 85%">
+                                                        <span class="title">85% Sold</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /progresss_status -->
+                                        </div>
+                                    </div>
+                                    <!-- /campaign_product_content -->
+                                </div>
+                                <!-- /inline_flex -->
+                            </div>
+                            <!-- /product_data_slide -->
+
+                        </div>
+                        <!-- /product_div -->
+                    </div>
+                    <div class="content_box socials_media_div">
+                        <h3 class="campaign_title">Social media feedback</h3>
+
+                        <div class="social_ratting_div">
+                            <ul class="social_rate">
+                                <li>
+                                    <div class="social_icon">
+                                        <img src="assets/images/campaign_fb.png" class="img-responsive">
+                                    </div>
+                                    <div class="social_progress_div">
+                                        <div class="progress-bar">
+                                            <div class="label" data-count="64">64</div>
+                                            <div class="line fb_line">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <!-- /progress-bar -->
+                                    </div>
+                                    <!-- /social_progress_div -->
+                                </li>
+                                <li>
+                                    <div class="social_icon">
+                                        <img src="assets/images/campaign_t.png" class="img-responsive">
+                                    </div>
+                                    <div class="social_progress_div">
+                                        <div class="progress-bar">
+                                            <div class="label" data-count="78">78</div>
+                                            <div class="line t_line">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <!-- /progress-bar -->
+                                    </div>
+                                    <!-- /social_progress_div -->
+                                </li>
+                                <li>
+                                    <div class="social_icon">
+                                        <img src="assets/images/campaign_insta.png" class="img-responsive">
+                                    </div>
+                                    <div class="social_progress_div">
+                                        <div class="progress-bar">
+                                            <div class="label" data-count="46">46</div>
+                                            <div class="line insta_line">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <!-- /progress-bar -->
+                                    </div>
+                                    <!-- /social_progress_div -->
+                                </li>
+                                <li>
+                                    <div class="social_icon">
+                                        <img src="assets/images/campaign_linkedin.png" class="img-responsive">
+                                    </div>
+                                    <div class="social_progress_div">
+                                        <div class="progress-bar">
+                                            <div class="label" data-count="38">38</div>
+                                            <div class="line linkedin_line">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                        <!-- /progress-bar -->
+                                    </div>
+                                    <!-- /social_progress_div -->
+                                </li>
+                            </ul>
+                            <div class="ratio_perstg">
+                                <div class="male_ratio">
+                                    <div class="male_icon gender_icon">
+                                        <img src="assets/images/campaign_male.png" class="img-responsive">
+                                    </div>
+                                    <div class="ratio_content">
+                                        <p class="total_per">76%</p>
+                                        <p class="gender_name">Male</p>
+                                    </div>
+                                </div>
+                                <!-- /male_ratio -->
+                                <div class="female_ratio">
+                                    <div class="female_icon gender_icon">
+                                        <img src="assets/images/campaign_female.png" class="img-responsive">
+                                    </div>
+                                    <div class="ratio_content">
+                                        <p class="total_per">88%</p>
+                                        <p class="gender_name">Female</p>
+                                    </div>
+                                </div>
+                                <!-- /male_ratio -->
+                            </div>
+                            <!-- /ratio_perstg -->
+                        </div>
+                        <!-- /social_ratting_divc -->
+                    </div>
+                    <!-- /socials_media_div -->
+                </div>
+                <!-- /popular_and_social_divs -->
+
+                <div class="sentiment_meter_div content_box">
+                    <div class="sentiment_meter_inner">
+                        <h3 class="campaign_title">Sentiment meter</h3>
+                        <ul class="sentiment_feeling_caption">
+                            <li>
+                                <img src="assets/images/happu_img.png" class="img-responsive happy_icon">
+                                <p class="para_text_normal campaign_text_para">
+                                    People are talking about your pop up store
+                                    <span class="happy_color">#50%</span> more positively. Congrats!
+                                </p>
+                            </li>
+                            <li>
+                                <img src="assets/images/angry_img.png" class="img-responsive angry_icon">
+                                <p class="para_text_normal campaign_text_para">
+                                    You have
+                                    <span class="angry_color"># 10%</span> negative mention for less stores
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /sentiment_meter_inner -->
+                    <div class="meter_graph">
+                        <h3 class="online_title">Online</h3>
+                        <div class="graph_pie">
+                            <!--<img src="assets/images/feelings.png" class="img-resonsive">-->
+                            <div class="sentiment_semi_circle_graph">
+                                <div class="barOverflow">
+                                    <div class="bar"></div>
+                                </div>
+                                <div class="progress_content">
+                                    <p class="value_text_span">
+                                        <span>85</span> %</p>
+                                    <p class="progress_text_color">Positive</p>
+                                </div>
+                            </div>
+                            <!-- /sentiment_semi_circle_graph -->
+                        </div>
+                    </div>
+                    <!-- /meter_graph -->
+                </div>
+                <!-- /sentiment_meter_div -->
+
+                <div class="top_vidoes_images content_box">
+                    <h3 class="campaign_title">Top videos / images</h3>
+                    <div class="social_gallary_slider">
+                        <div class="social_gallary_slider_1">
+                            <div class="inline_flex justify_beetween">
+                                <div class="social_image">
+                                    <img src="assets/images/social_image1.png" class="img-responsive">
+                                </div>
+                                <div class="social_video">
+                                    <img src="assets/images/social_video1.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social_gallary_slider_2">
+                            <div class="inline_flex justify_beetween">
+                                <div class="social_image">
+                                    <img src="assets/images/social_image1.png" class="img-responsive">
+                                </div>
+                                <div class="social_video">
+                                    <img src="assets/images/social_video1.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /top_vidoes_images-->
+
+                <div class="suggestions_buzz_div">
+                    <div class="content_box buzz_world">
+                        <h3 class="campaign_title">Buzz words</h3>
+                        <ul class="overflow_scroll">
+                            <li>
+                                <p class="buzz_text">
+                                    <span class="hez">#</span> Drinkittobelieveit</p>
+                                <p class="buzz_text">
+                                    <span class="hez">#</span> Asipintherightdirection!</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /buzz_world -->
+
+                    <div class="content_box suggetions_div">
+                        <h3 class="campaign_title">Suggestions for spikes in sales</h3>
+                        <div class="discount_div">
+                            <p class="para_text_normal campaign_text_para_big">Bring out more stores Give more discount</p>
+                        </div>
+                    </div>
+                    <!-- /suggetions_div -->
+                </div>
+                <!-- /suggestions_buzz_div -->
+            </div>
+            <!-- /sec_right_campaign -->
+        </main>
+
+
+
+
+    </section>
+    <!-- /store_intelligence_section -->
+    <!-- Bootstrap core JavaScript =========== -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <script type="text/javascript" src="assets/plugins/slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/getRetail_customer.js"></script>
+      <script type="text/javascript" src="assets/js/getRetail_inventory.js"></script> -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("html").on("contextmenu", function () {
+                return false;
+            });
+        });
+        $(document).ready(function () {
+            new WOW().init();
+            AOS.init();
+            // loadAlertMsg();
+            //   loadRetailCustomer();
+            //   loadRetailInventory();
+        });
+        var campProgressData;
+        var get_analysis_id_count;
+
+        $('.bar_graph_slide').slick({
+            dots: true,
+            infinite: true,
+            speed: 1200,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 3000
+        });
+        $('.competitor_movements_slide').slick({
+            dots: true,
+            infinite: true,
+            speed: 1500,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 4000
+        });
+        $('.social_gallary_slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 1800,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 6000
+        });
+        $('.product_div').slick({
+            dots: true,
+            infinite: true,
+            speed: 1600,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 5000
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            var progressBar = document.querySelectorAll(".social_progress_div .progress-bar");
+            var time = 1500;
+
+
+            progressBar.forEach(function (i) {
+                let label = i.children[0];
+                let line = i.children[1];
+                let count = 0;
+                let dataCount = label.getAttribute("data-count");
+                let lineCount = line.children[0];
+
+                let runTime = time / dataCount;
+
+                let animationLineCount = setInterval(function () {
+                    if (count < dataCount) {
+                        count++;
+                        label.innerHTML = count + '%';
+                        lineCount.style.width = count + '%';
+                    }
+                }, runTime);
+            });
+        });
+
+
+
+        $(".sentiment_semi_circle_graph").each(function () {
+            var $bar = $(this).find(".bar");
+            var $val = $(this).find("span");
+            var perc = parseInt($val.text(), 10);
+
+            $({ p: 0 }).animate({ p: perc }, {
+                duration: 3000,
+                easing: "swing",
+                step: function (p) {
+                    $bar.css({
+                        transform: "rotate(" + (45 + (p * 1.8)) + "deg)", // 100%=180° so: ° = % * 1.8
+                        // 45 is to add the needed rotation to have the green borders at the bottom
+                    });
+                    $val.text(p | 0);
+                }
+            });
+        });
+        $('.analysis_img').click(function () {
+
+            $("#campaign_data_box_data").html('');
+            var get_analysis_id = $(this).attr("id");
+            get_analysis_id_count = get_analysis_id.replace("analysis_", '');
+            //get_analysis_id_count =
+            console.log(get_analysis_id_count);
+
+
+            $.getJSON('product_data/campaign_progress_data.json', function (campaign_progress_data) {
+                campProgressData = campaign_progress_data[0];
+
+                //console.log(campaign_progress_data);
+                console.log(campProgressData.campaignProgress[get_analysis_id_count - 1]);
+                //
+                //$.each(campProgressData.campaignProgress, function (i, campaignProgress_data) {
+                console.log(campProgressData.campaignProgress[get_analysis_id_count - 1].place);
+                var campaignProgress_data_display = "<div class='data_header'> <h4 class='data_title'>" + campProgressData.campaignProgress[get_analysis_id_count - 1].place + "</h4> <div class='campaign_side_content'> <p class='dark_text'>Last hour</p><p class='dark_text'>12:00 to 13:00</p></div></div><div class='data_body'> <div class='data_semi_circle_graph'> <p class='para_text_color'>Campaign progress</p><div class='semi_circle_graph'> <div class='barOverflow'> <div class='bar'></div></div><div class='progress_content'> <p class='value_text_span'><span>" + campProgressData.campaignProgress[get_analysis_id_count - 1].campaignProgressdata + "</span> %</p><p class='progress_text_color'> " + campProgressData.campaignProgress[get_analysis_id_count - 1].campaignStatus + "</p></div></div></div><div class='demo_graphics'> <p class='para_text_color'>Demographics</p><div class='inline_flex'> <div class='male_ratio'> <div class='male_icon gender_icon'> <img src='assets/images/campaign_male.png' class='img-responsive'> </div><div class='ratio_content'> <p class='total_per'>" + campProgressData.campaignProgress[get_analysis_id_count - 1].maleCount + "%</p><p class='gender_name'>Male</p></div></div><div class='female_ratio'> <div class='female_icon gender_icon'> <img src='assets/images/campaign_female.png' class='img-responsive'> </div><div class='ratio_content'> <p class='total_per'>" + campProgressData.campaignProgress[get_analysis_id_count - 1].femaleCount + "%</p><p class='gender_name'>Female</p></div></div></div></div><div class='footfall_analysis'> <p class='para_text_color'>Footfall analysis</p><div class='inline_flex justify_beetween padding_top_15'> <div class='progresss_status'> <div class='progress'> <div class='progress-bar' role='progressbar' aria-valuenow='" + campProgressData.campaignProgress[get_analysis_id_count - 1].FootfallAnalysis + "' aria-valuemin='0' aria-valuemax='100' style='max-width: " + campProgressData.campaignProgress[get_analysis_id_count - 1].FootfallAnalysis + "%'> <span class='title'>" + campProgressData.campaignProgress[get_analysis_id_count - 1].FootfallAnalysis + "%</span> </div></div></div><div class='total_visits'> <p class='total_visits'>Total Visits <span class='visits_number'>" + campProgressData.campaignProgress[get_analysis_id_count - 1].totalVisit + "</span></p></div></div></div></div>"
+                $(campaignProgress_data_display).appendTo("#campaign_data_box_data");
+                //  });
+
+            });
+            $('#campaign_data_box_data').show();
+            $('.overlay').show().addClass('overlay_body');
+
+
+
+            setTimeout(function () {
+
+                $(".semi_circle_graph").each(function () {
+                    var $bar = $(this).find(".bar");
+                    var $val = $(this).find("span");
+                    var perc = parseInt($val.text(), 10);
+
+                    $({ p: 0 }).animate({ p: perc }, {
+                        duration: 3000,
+                        easing: "swing",
+                        step: function (p) {
+                            $bar.css({
+                                transform: "rotate(" + (45 + (p * 1.8)) + "deg)", // 100%=180° so: ° = % * 1.8
+                                // 45 is to add the needed rotation to have the green borders at the bottom
+                            });
+                            $val.text(p | 0);
+                        }
+                    });
+                });
+            }, 200);
+
+        });
+        // analysis_img
+        $('.overlay').click(function () {
+            $('.overlay').hide().removeClass('overlay_body');
+        });
+
+
+    </script>
+</body>
+
+</html>

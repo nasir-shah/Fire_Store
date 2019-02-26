@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Retail Future</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="assets/plugins/slick/slick-theme.css" />
+  <link rel="stylesheet" href="assets/plugins/fancybox/jquery.fancybox.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="assets/css/aos.css" rel="stylesheet">
+</head>
+
+<body class="screen_saver">
+  <section class="index_screen">
+    <div class="screen_video" onclick="window.location = 'product_dashboard.html'">
+      <video id="screen_saver_video" playsinline muted autoplay loop autobuffer onloadstart="this.volume=0" poster="">
+        <source src="assets/videos/screen_saver.mp4" width="100%" height="100%" type="video/mp4"> Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- Import and configure the Firebase SDK -->
+  <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+  <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+  <script src="/__/firebase/5.7.0/firebase-app.js"></script>
+  <script src="/__/firebase/5.7.0/firebase-messaging.js"></script>
+  <script src="/__/firebase/init.js"></script>
+
+  <!-- Bootstrap core JavaScript =========== -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/wow.min.js"></script>
+  <script type="text/javascript" src="assets/js/aos.js"></script>
+  <script type="text/javascript" src="assets/js/animatedModal.js"></script>
+  <script type="text/javascript" src="assets/plugins/js-yaml/js-yaml.js"></script>
+  <!--   <script type="text/javascript" src="assets/plugins/slick/slick.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/elevatezoom/jquery.elevatezoom.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/fancybox/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript" src="assets/js/getProductDetail.js"></script> -->
+
+  <!-- to have firebase push notification functionality -->
+  <script type="text/javascript" src="assets/js/index.js"></script>
+
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+      $("html").on("contextmenu", function () {
+        return false;
+      });
+    });
+    $(document).ready(function () {
+      new WOW().init();
+      AOS.init();
+      requestPermission();
+    });
+  </script>
+
+</body>
+
+</html>

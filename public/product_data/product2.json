@@ -1,0 +1,97 @@
+{
+    "id": "2",
+    "name": "Infosys Bottle (Model Info:SF073)",
+    "title": "Thermos Insulated /Hot / Cold",
+    "description": "Vaccum steel water bottle",
+    "productflavour": "Grey",
+    "productDimension": "24.5cm x 6.5cm",
+    "productLocationCity": "Banglore",
+    "productLocationCounty": "India",
+    "productRatingImg": "rating5.png",
+    "productRatingValue": "5",
+    "productReviewCount": "200",
+    "cost": "19.99",
+    "productPromotionPercentage": "10",
+    "productWeight": "2 pound",
+    "productManufactureDate": "31/12/2018",
+    "productBestBefore": "31/12/2030",
+    "imageUrl": [
+        "1.png",
+        "2.png",
+        "3.png"
+    ],
+    "productNutrients": [
+      {
+          "value": "",
+          "unit": "",
+          "name": "",
+          "percentage": ""
+      }
+    ],
+    "productDailyValueFeatures1": [
+      {
+          "name": "",
+          "value": "",
+          "unit": "",
+          "images": ""
+      }
+    ],
+    "productDailyValueFeatures2": [
+      {
+          "name": "Fabricated inside and outside in 18/8 quality stainless steel .",
+          "value": "",
+          "unit": "",
+          "images": ""
+      },
+      {
+          "name": "Which is rust proof",
+          "value": "",
+          "unit": "",
+          "images": ""
+      }
+    ],
+    "productDailyValueFeatures3": [
+      {
+          "name": "",
+          "value": "",
+          "unit": "",
+          "images": ""
+      }
+    ],
+    "productDailyValueFeatures4": [
+      {
+          "name": "BPA free",
+          "value": "",
+          "unit": "",
+          "images": ""
+      },
+      {
+          "name": "Non toxic plastic",
+          "value": "",
+          "unit": "",
+          "images": ""
+      }
+    ],
+    "productHowToUse": [
+      {
+          "content": "Use your bottle for tea, coffee, juice etc",
+          "images": "productHowToUse_1.png",
+          "video": ""
+      },
+      {
+          "content": "Pre condition your bottle with hot water, if using for hot beverages and with cold water if using for cold beverages.",
+          "images": "productHowToUse_2.png",
+          "video": ""
+      },
+      {
+          "content": "Fill the bottle completely to maintain temperature",
+          "images": "productHowToUse_3.png",
+          "video": ""
+      },
+      {
+          "content": "Do not use for carbonated drinks.",
+          "images": "productHowToUse_4.png",
+          "video": ""
+      }
+    ]
+}

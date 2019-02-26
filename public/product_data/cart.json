@@ -1,0 +1,15 @@
+{
+    "products" : [
+        {
+            "productId" : "1",
+            "quantity" : 1,
+            "price" : 63.74
+        },
+        {
+            "productId" : "3",
+            "quantity" : 1,
+            "price" : 32.31
+        }
+    ],
+    "amount" : 95.95
+}

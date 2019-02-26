@@ -1,0 +1,130 @@
+[{
+  "id": "1",
+  "shift": "shift 1",
+  "type": "Type 1",
+  "dailyTarget": [
+    {
+      "min": "0",
+      "max": "25000",
+      "current": 83,
+      "status": "Avg. Sales",
+      "status2": "per Associate"
+    }
+  ],
+  "totalAssociate": "35",
+  "staffofTheWeek": [
+    {
+      "name": "Anna Winston",
+      "designation": "Housekeeping Staff",
+      "photo": "staff_of_the_week_1",
+      "rating": "4",
+      "typeText": "Best employee",
+      "type": "best"
+    }
+  ],
+  "breakupAssociates": [
+    {
+      "active": "29",
+      "onLeave": "2",
+      "onBreak": "4"
+    }
+  ],
+
+  "upcomingStaffStrength": [
+    {
+      "date": "10",
+      "count": "35"
+    },
+    {
+      "date": "11",
+      "count": "35"
+    },
+    {
+      "date": "12",
+      "count": "34"
+    },
+    {
+      "date": "13",
+      "count": "33"
+    },
+    {
+      "date": "14",
+      "count": "30"
+    },
+    {
+      "date": "15",
+      "count": "33"
+    },
+    {
+      "date": "16",
+      "count": "35"
+    },
+    {
+      "date": "17",
+      "count": "35"
+    },
+    {
+      "date": "18",
+      "count": "32"
+    },
+    {
+      "date": "19",
+      "count": "32"
+    },
+    {
+      "date": "20",
+      "count": "35"
+    }
+  ],
+  "returningCustomerRatioCount": "1",
+  "returningCustomerRatioTotal": "2",
+  "returningCustomerRatioType": "Customer",
+  "engagementPeriodStarts": "10",
+  "engagementPeriodEnds": "15",
+  "specialStaffCampaign": [
+    {
+      "img": "special_staff_campaign_1.png",
+      "active": "10",
+      "onLeave": "2",
+      "onBreak": "2"
+    }
+  ],
+  "staffIssues": [
+    {
+      "msg": "Wifi connectivity in some pockets of store"
+    },
+    {
+      "msg": "Communication between different floors"
+    },
+    {
+      "msg": "Instant update of offers"
+    },
+    {
+      "msg": "Changing department in short notice"
+    },
+    {
+      "msg": "Heavy products are difficult to carry in carts"
+    },
+    {
+      "msg": "Instant update of offers"
+    },
+    {
+      "msg": "Wifi connectivity in same pockets of store"
+    },
+    {
+      "msg": "Communication between different floors"
+    },
+    {
+      "msg": "Instant update of offers"
+    },
+    {
+      "msg": "Changing department in short notice"
+    },
+    {
+      "msg": "Heavy products are difficult to carry in carts"
+    },
+    {
+      "msg": "Instant update of offers"
+    }
+  ]
+}]

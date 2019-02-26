@@ -1,0 +1,50 @@
+[{
+
+	"campaignProgress": [{
+			"place": "Utah",
+			"maleCount": "35",
+			"femaleCount": "65",
+			"FootfallAnalysis": "68",
+			"totalVisit": "154",
+			"campaignProgressdata": "68",
+			"campaignStatus": "Positive"
+		},
+		{
+			"place": "Nebraska",
+			"maleCount": "30",
+			"femaleCount": "70",
+			"FootfallAnalysis": "98",
+			"totalVisit": "176",
+			"campaignProgressdata": "98",
+			"campaignStatus": "Positive"
+		},
+		{
+			"place": "Texas",
+			"maleCount": "55",
+			"femaleCount": "45",
+			"FootfallAnalysis": "98",
+			"totalVisit": "231",
+			"campaignProgressdata": "98",
+			"campaignStatus": "Positive"
+		},
+		{
+			"place": "Georgia",
+			"maleCount": "48",
+			"femaleCount": "52",
+			"FootfallAnalysis": "68",
+			"totalVisit": "254",
+			"campaignProgressdata": "68",
+			"campaignStatus": "Positive"
+		},
+		{
+			"place": "New Mexico",
+			"maleCount": "66",
+			"femaleCount": "34",
+			"FootfallAnalysis": "90",
+			"totalVisit": "98",
+			"campaignProgressdata": "90",
+			"campaignStatus": "Positive"
+		}
+	]
+
+}]
