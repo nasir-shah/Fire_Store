@@ -1,0 +1,27 @@
+export class Product {
+    productId;
+    productName;
+    productSubName;
+    productSummary;
+    productflavour;
+    productDimension;
+    productLocationCity;
+    productLocationCounty;
+    productRatingImg;
+    productRatingValue;
+    productReviewCount;
+    productPrice;
+    productPromotionPercentage;
+    productWeight;
+    productManufactureDate;
+    productBestBefore;
+    productInStockCount;
+    productImages;
+    productNutrients;
+    productDailyValueFeatures1;
+    productDailyValueFeatures2;
+    productDailyValueFeatures3;
+    productDailyValueFeatures4;
+    productHowToUse;
+    productYouMayLike;
+}
