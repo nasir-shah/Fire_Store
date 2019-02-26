@@ -1,3 +1,1125 @@
-<p>
-  retail works!
-</p>
+<div class="retail_dashboard">
+    <section class="store_intelligence_section">
+        <div class="store_bg">
+            <video id="videoBg" onloadstart="this.volume=0" poster="" muted="" loop="" autoplay="" playsinline="" async="" autobuffer="">
+                <source src='assets/videos/store.mp4' type='video/mp4'> Your browser does not support the video tag.
+            </video>
+        </div>
+        <nav class="store_nav">
+            <a href="index.html" class="brand_logo">
+                <img src="assets/images/logo.png" class="img-responsive" alt="Ease-y">
+            </a>
+            <div class="middle_nav_content">
+                <h2 class="nav_page_title">Store Intelligence</h2>
+                <h2 class="nav_section_title">Customer</h2>
+                <div class="profile_div">
+                    <div class="nav_time_date">
+                        <p class="para_text_normal">
+                            <span class="nav_date"></span>
+                            <span class="nav_time"></span>
+                        </p>
+                    </div>
+                    <div class="nav_profile_div">
+                        <div class="nav_profile_img">
+                            <img src="assets/images/retail/profile_pic.png" class="img-responsive">
+                        </div>
+                        <div class="nav_profile_content">
+                            <p class="nav_profile_name">Peter John</p>
+                            <p class="nav_profile_designation">Store Manager</p>
+                        </div>
+                    </div>
+                    <!-- /nav_profile_div -->
+                </div>
+                <!--/profile_div -->
+            </div>
+            <!-- /middle_nav_content -->
+            <div class="alert_list_panel">
+                <img src="assets/images/retail/toggle_menu.png" class="img-responsive" id="nav_toggle_btn">
+            </div>
+        </nav>
+        <div class="alert_side_bar" id="sidenav">
+            <div class="alert_top_header justify_beetween">
+                <div class="alert_heading inline_flex">
+                    <div class="alert_icon">
+                        <img src="assets/images/retail/alert_icon_panel.png" class="img-responsive">
+                    </div>
+                    <h3 class="alert_title">ALERTS</h3>
+                </div>
+                <div class="close_div">
+                    <div class="close_icon">
+                        <img src="assets/images/retail/alert_close_icon.png" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <ul id="data_alert" class="side_nav_items">
+                <!-- data here  -->
+            </ul>
+        </div>
+        <main class="store_details_content left_right_content">
+            <div class="left_div">
+                <div class="store_graph" id="clickForAlert">
+                    <img src="assets/images/tab_1_video.png" alt="store_graph" class="img-responsive tab_1_video alert_pop_active">
+                    <img src="assets/images/tab_2_video.png" alt="store_graph" class="img-responsive tab_2_video alert_pop_active">
+                    <div class="tab_3_video">
+                    </div>
+                    <img src="assets/images/tab_4_video.png" alt="store_graph" class="img-responsive tab_4_video alert_pop_active">
+                    <!-- /alert_misplaced starts-->
+                    <div id="left_popup_1" class="alert_misplaced alert_popup_dash">
+                        <div class="alert_bg">
+                            <div class="alert_icon_img">
+                                <img src="assets/images/retail/alert_small_icon.png" class="img-responsive">
+                            </div>
+                            <p class="popup_text_para">Infosys Bottle is misplaced on Aisle A1.</p>
+                        </div>
+                        <div class="cancel_alert_div" id="alertbgCancel">
+                            <img src="assets/images/retail/alert_bg_cancel.png" class="img-responsive">
+                        </div>
+                    </div>
+                    <!-- /alert_misplaced ends-->
+                    <!-- staff details popup starts-->
+                    <div id="left_popup_2" class="customer_details">
+                        <div class="customer_profile_popup">
+                            <div class="user_profile_head inline_flex">
+                                <div class="user_profile_pic">
+                                    <img src="assets/images/popup/custmore_profile_pic.png" class="img-responsive">
+                                </div>
+                                <h4 class="customer_name">Michael Philip</h4>
+                            </div>
+                            <ul class="more_details_customer">
+                                <li>
+                                    <p class="top_title_para">Department</p>
+                                    <p class="para_text_normal">Health and Fitness</p>
+                                </li>
+                                <li>
+                                    <p class="top_title_para">Remaining Shift</p>
+                                    <div class="shift_graph_div">
+                                        <p class="shift_graph">
+                                            <img src="assets/images/popup/shift_line.png" class="img-responsive">
+                                        </p>
+                                        <p class="top_title_para">
+                                            2
+                                            <br /> hours
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p class="top_title_para">Ratings</p>
+                                    <p class="ratting_star">
+                                        <img src="assets/images/popup/popup_rating.png" class="img-responsive">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="top_title_para">Awards</p>
+                                    <p class="awards_div">
+                                        <img src="assets/images/popup/award.png" class="img-responsive">
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /staff details popup ends-->
+                    <!-- /hover tooltip starts -->
+                    <div id="left_popup_3" class="model_graph">
+                        <ul class="tooltip_boxs">
+                            <li class="tooltip_box_list box_list_1">
+                                <div class="tooltip_li_1 tooltip_li">
+                                    <img src="assets/images/popup/small_graph_li_bg.png" class="img-responsive">
+                                    <div class="tooltip_div">
+                                        <p class="tooltip_para tooltiptext">Health &amp; Fitness Aisle 1</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tooltip_box_list box_list_2">
+                                <div class="tooltip_li_2 tooltip_li">
+                                    <img src="assets/images/popup/small_graph_li_bg.png" class="img-responsive">
+                                    <div class="tooltip_div">
+                                        <p class="tooltip_para tooltiptext">Health &amp; Fitness Aisle 2</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tooltip_box_list box_list_3">
+                                <div class="tooltip_li_3 tooltip_li">
+                                    <img src="assets/images/popup/small_graph_li_bg.png" class="img-responsive">
+                                    <div class="tooltip_div">
+                                        <p class="tooltip_para tooltiptext">Health &amp; Fitness Aisle 3</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="tooltip_boxs tooltip_box_2">
+                            <li class="tooltip_box_list box_list_4">
+                                <div class="tooltip_li_4 tooltip_li">
+                                    <img src="assets/images/popup/small_graph_li_bg.png" class="img-responsive">
+                                    <div class="tooltip_div">
+                                        <p class="tooltip_para tooltiptext">Health &amp; Fitness Aisle 4</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tooltip_box_list box_list_5">
+                                <div class="tooltip_li_5 tooltip_li">
+                                    <img src="assets/images/popup/small_graph_li_bg.png" class="img-responsive">
+                                    <div class="tooltip_div">
+                                        <p class="tooltip_para tooltiptext">Health &amp; Fitness Aisle 5</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="tooltip_box_list box_list_6">
+                                <div class="tooltip_li_6 tooltip_li">
+                                    <img src="assets/images/popup/small_graph_li_bg.png" class="img-responsive">
+                                    <div class="tooltip_div">
+                                        <p class="tooltip_para tooltiptext">Health &amp; Fitness Aisle 6</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /hover tooltip ends -->
+                    <!-- /infra security_solutions popup ends -->
+                    <div id="left_popup_4" class="customer_details security_solutions">
+                        <div class="customer_profile_popup security_solutions_popup">
+                            <div class="user_profile_head inline_flex">
+                                <div class="user_profile_pic">
+                                    <img src="assets/images/popup/camera_img_popup.png" class="img-responsive">
+                                </div>
+                                <h4 class="customer_name">Security solutions high resolution dome cctv camera</h4>
+                            </div>
+                            <ul class="more_details_customer">
+                                <li>
+                                    <div class="inline_flex justify_beetween">
+                                        <div class="first_div_customore">
+                                            <p class="top_title_para m_space">Resolution</p>
+                                            <p class="para_text_normal">2MP (1920 X 1080)</p>
+                                        </div>
+                                        <div class="sec_div_customore">
+                                            <p class="top_title_para m_space">Lens</p>
+                                            <p class="para_text_normal">4mm</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="inline_flex justify_beetween">
+                                        <div class="first_div_customore">
+                                            <p class="top_title_para m_space">Operation Condition</p>
+                                            <p class="para_text_normal">20 degree F to 360 degree F</p>
+                                        </div>
+                                        <div class="sec_div_customore">
+                                            <p class="top_title_para m_space">Angle</p>
+                                            <p class="para_text_normal">360 degree</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="column_3">
+                                <div class="display_flex_div">
+                                    <div class="first_div_customore">
+                                        <p class="top_title_para m_space">Upcoming Service</p>
+                                        <p class="para_text_normal">2 Feb 2019</p>
+                                    </div>
+                                    <div class="sec_div_customore">
+                                        <p class="top_title_para m_space">Replaced On</p>
+                                        <p class="para_text_normal">20 Aug 2018</p>
+                                    </div>
+                                    <div class="thr_div_customore">
+                                        <p class="top_title_para m_space">Serviced On</p>
+                                        <p class="para_text_normal">15 Dec 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="status_div_popup">
+                                <p class="para_text_normal">
+                                    status:
+                                    <span class="active_text">Active</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /infra security_solutions popup ends -->
+                </div>
+                <div class="retail_tabs">
+                    <ul class="nav nav-pills nav_retail clickable_tabs">
+                        <li class="active nav_item click_1">
+                            <a href="javascript:void(0)" id="retailMenu_1">
+                                <div class="img-cover">
+                                    <div class="customer_icon nav_icons"></div>
+                                </div>
+                                <span class="retail_tabs_text">Customer</span>
+                            </a>
+                        </li>
+                        <li class="nav_item click_2">
+                            <a href="javascript:void(0)" id="retailMenu_2">
+                                <div class="img-cover">
+                                    <div class="staff_icon nav_icons"></div>
+                                </div>
+                                <span class="retail_tabs_text">Staff</span>
+                            </a>
+                        </li>
+                        <li class="nav_item click_3">
+                            <a href="javascript:void(0)" id="retailMenu_3">
+                                <div class="img-cover">
+                                    <div class="inventory_icon nav_icons"></div>
+                                </div>
+                                <span class="retail_tabs_text">Inventory</span>
+                            </a>
+                        </li>
+                        <li class="nav_item click_4">
+                            <a href="javascript:void(0)" id="retailMenu_4">
+                                <div class="img-cover">
+                                    <div class="Infra_icon nav_icons"></div>
+                                </div>
+                                <span class="retail_tabs_text">Infra</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="status_div">
+                    <p class="status_text ok_text">Ok</p>
+                    <p class="status_text issue_text">Issue</p>
+                </div>
+                <div class="fixed_bottom_disclaimer">
+                    <p class="desclaimer_text">
+                        Disclaimer : The products showcased in this booth are for general demonstration purposes only. Infosys Ltd.
+                    </p>
+                    <a href="#disclaimerPopup" role="button" data-toggle="modal" data-target="#disclaimerPopup" class="desclaimer_read_more">Read More...</a>
+                </div>
+            </div>
+            <!-- /left_div -->
+            <div class="right_div">
+                <div class="tab-content">
+                    <div id="Customer" class="main_tab tab-pane fade in active">
+                        <div class="target_tabs_nav">
+                            <ul class="nav nav-pills">
+                                <li class="active">
+                                    <a href="#today" data-toggle="tab">Today</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Weekly</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Monthly</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0)">Yearly</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-content clearfix">
+                            <div class="tab-pane active" id="today">
+                                <div class="select_target_div">
+                                    <div class="select_target_graph">
+                                        <h3 class="panel_title">sales target</h3>
+                                        <div class="graph_img pt_30">
+                                            <!--                                    <img src="assets/images/retail/select_target_img.png" class="img-responsive" alt="SELECT TARGET">-->
+                                            <div class="Semiprogress selectTarget">
+                                                <div class="barOverflow">
+                                                    <div class="bar"></div>
+                                                </div>
+                                                <div id="sale_target_meter" class="progress_content">
+                                                    <!-- data here  -->
+                                                    <!-- <p class="progress_text_color">Today</p> -->
+                                                    <!-- <p class="value_text_span"><span>100</span>%</p> -->
+                                                    <!-- <p class="progress_text_white">Achieved</p> -->
+                                                </div>
+                                            </div>
+                                            <div class="min_max_div">
+                                                <p class="first_target_text min_max_text">$ 0</p>
+                                                <p class="sec_target_text min_max_text">$ 20000</p>
+                                            </div>
+                                            <!-- /min_max_div -->
+
+                                            <!-- /Semiprogress -->
+                                        </div>
+                                    </div>
+                                    <div class="verticle_tabs">
+                                        <div class="items_tab_nav">
+                                            <ul id="productCategory_data" class="nav nav-pills nav-stacked nav_overflow">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                        <div id="catproductListing_data" class="tab-content">
+                                            <!-- data here -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / select_target_div -->
+                                <div class="promotion_complaints_div inline_flex">
+                                    <div class="promotion_div">
+                                        <div class="top_title_panel justify_beetween inline_flex">
+                                            <h3 class="panel_title">Promotion</h3>
+                                            <div class="dropdowm_div">
+                                                <img src="assets/images/retail/dropdown_img.png" class="img-responsive" alt="dropdown">
+                                            </div>
+                                        </div>
+                                        <div class="bottom_body_part">
+                                            <div id="promotion_data" class="slide_calandr">
+                                                <!-- data here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="complaints_div">
+                                        <div class="top_title_panel complaints_panel">
+                                            <h3 class="panel_title">complaints</h3>
+                                        </div>
+                                        <div class="complaints_list">
+                                            <ul id="complains_data" class="points_list">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="behavior_offer_sentiment_div">
+                                    <div class="customer_behavior behavior_offer_divs">
+                                        <h3 class="panel_title">Customer behaviour</h3>
+                                        <div id="customerBehavior_data" class="contnet_body behavior_body">
+                                            <!-- data here -->
+                                        </div>
+                                    </div>
+                                    <div class="special_offer_div behavior_offer_divs">
+                                        <h3 class="panel_title">Special Offer</h3>
+                                        <div class="behavior_body">
+                                            <div id="specialOffers_data" class="offer_slider">
+                                                <!-- data here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="complaints_sentiment_div behavior_offer_divs">
+                                        <h3 class="panel_title">Customer sentiment</h3>
+                                        <div class="behavior_body complaints_senti">
+                                            <div class="happy_img">
+                                                <img src="assets/images/happy.png" class="img-responsive">
+                                            </div>
+                                            <div class="ct-chart ct-golden-section" id="chartsentiment"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="todays_footfall_div">
+                                    <div class="toays_footfall_top inline_flex justify_beetween">
+                                        <div id="footfall_data0" class="weekly_monthly_yrly inline_flex">
+                                            <!-- data here -->
+                                        </div>
+                                        <div class="todays_footfall_dropdown">
+                                            <img src="assets/images/retail/dropdown_img_2.png" class="img-responsive">
+                                        </div>
+                                    </div>
+                                    <div class="age_range_slide total_footfall">
+                                        <div id="footfall_data1" class='slide_1'>
+                                            <!-- data here  -->
+                                        </div>
+                                        <div class='slide_2'>
+                                            <div class='todays_range_graph inline_flex'>
+                                                <ul id="age_range_data" class='inline_flex ul_range'>
+                                                    <li>
+                                                        <h4 class='para_text_normal'>Age Range:</h4>
+                                                    </li>
+                                                </ul>
+                                                <div id="footfall_peak_time_graph" class='graph_img slide_graph_img'>
+                                                    <!-- <img src='assets/images/retail/slide_graph.png' class='img-responsive'> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /today -->
+                            <!--
+                           <div class="tab-pane" id="weekly">
+                              <h3>weekly</h3>
+                           </div>
+                           -->
+                        </div>
+                    </div>
+                    <!-- / Customer -->
+                    <div id="Staff" class="main_tab tab-pane fade">
+                        <div class="staff_div">
+                            <div class="dropdown_nav">
+                                <div class="drop_dowm_img">
+                                    <img src="assets/images/retail/staff_dropdown.png" class="img-resposnive">
+                                </div>
+                            </div>
+                            <div class="staff_shift_content inline_flex border_bottom_retail">
+                                <div class="daily_target_div h_100">
+                                    <h3 class='panel_title'>Daily Target</h3>
+                                    <div class='inline_flex h_100 pt_18 justify_beetween'>
+                                        <div class='daily_avg_sale_graph'>
+                                            <!-- <img src='assets/images/retail/per_associate.png' class='img-responsive'>  -->
+                                            <div class="dailyTarget">
+                                                <div class="barOverflow">
+                                                    <div class="bar"></div>
+                                                </div>
+                                                <div id="daily_target_meter" class="progress_content">
+                                                    <!-- <p class="value_text_span"><span>85</span> %</p> -->
+                                                    <!-- <p class="progress_text_white">Avg. Sale</p> -->
+                                                    <!-- <p class="progress_text_color">Per Associate</p> -->
+                                                </div>
+                                            </div>
+                                            <div class="min_max_div">
+                                                <p class="first_target_text min_max_text">0</p>
+                                                <p class="sec_target_text min_max_text">25k</p>
+                                            </div>
+                                            <!-- /min_max_div -->
+                                        </div>
+                                        <div id="daily_target_data" class='total_associates_div'>
+                                            <!-- data here -->
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div id="staff_of_the_week_data" class="staff_of_the_week h_100">
+                                    <!-- data here -->
+                                </div>
+                            </div>
+                            <div class="associates_and_staff_campaign_div inline_flex align_items_start justify_beetween">
+                                <div class="associates_strength_ratio_div">
+                                    <div id="breakup_associates_data" class="breakup_associates border_bottom_retail">
+                                        <!-- data here -->
+                                    </div>
+                                    <div class="upcoming_staff_strength_div border_bottom_retail">
+                                        <h3 class="panel_title">Upcoming Staff strength</h3>
+                                        <div id="staff_strength_graph" class="staff_strength_bar pt_18">
+                                            <!-- <img src="assets/images/retail/upcoming_staff_strength.png" class="img-responsive"> -->
+                                            <p class="upcoming_staff_strength_text">
+                                                January
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="progress_circle_div inline_flex justify_beetween">
+                                        <div class="customer_ratio text-center">
+                                            <div class="circle_progress_ratio progress_circle">
+                                                <!--<img src="assets/images/retail/progress_1.png" class="img-responsive">-->
+                                                <div id="returning_customer_ratio" class="returning_ratio">
+                                                    <!-- <div class="circle_progress_ratio circle" data-percent=""> -->
+                                                    <!-- <div class="middle_content_circle"> -->
+                                                    <!-- <strong class="value_tag"></strong> -->
+                                                    <!-- <span class="value_text">Customer</span> -->
+                                                    <!-- </div> -->
+                                                    <!-- </div> -->
+                                                    <!-- data here -->
+                                                </div>
+                                            </div>
+                                            <p class="para_text_normal">Returning Customer Ratio</p>
+                                        </div>
+                                        <div class="engagement_period text-center">
+                                            <div class="circle_progress_ratio progress_circle">
+                                                <!--<img src="assets/images/retail/progress_2.png" class="img-responsive">-->
+                                                <div id="engagement_period_graph" class="engagement_period">
+                                                    <!-- <div class="circle_progress_ratio circle" data-percent="90"> -->
+                                                    <!-- <div class="middle_content_circle"> -->
+                                                    <!-- <strong class="value_tag"></strong> -->
+                                                    <!-- <span class="value_text">Customer</span> -->
+                                                    <!-- </div> -->
+                                                    <!-- </div> -->
+                                                </div>
+                                            </div>
+                                            <p class="para_text_normal">Engagement Period</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /associates_strength_ratio_div -->
+                                <div class="staff_issue_campaign_div">
+                                    <div id="staff_for_campaign_data" class="staff_for_campaign border_bottom_retail">
+                                        <!-- data here -->
+                                    </div>
+                                    <!-- /staff_for_campaign -->
+                                    <div class="staff_issue_div">
+                                        <h3 class="panel_title">Staff Issues</h3>
+                                        <div class="overflow_list scroll">
+                                            <ul id="staff_issue_data" class="products_list_li">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /staff -->
+                    <div id="Inventory" class="main_tab tab-pane fade">
+                        <div class="inventory_tabs">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class="active">
+                                    <a href="#inventoryHelath" role="tab" data-toggle="tab">
+                                        <div class="inline_flex">
+                                            <div class="side_icon">
+                                                <img src="assets/images/retail/small_health.png" class="img-responsive">
+                                            </div>
+                                            <p class="para_text_color">Health &amp; Fitness</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="javascript:void(0)">
+                                        <div class="inline_flex">
+                                            <div class="side_icon">
+                                                <img src="assets/images/retail/small_cosmetics.png" class="img-responsive">
+                                            </div>
+                                            <p class="para_text_color">Cosmetics &amp; Lifestyle</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="javascript:void(0)">
+                                        <div class="inline_flex">
+                                            <div class="side_icon">
+                                                <img src="assets/images/retail/small_vegetables.png" class="img-responsive">
+                                            </div>
+                                            <p class="para_text_color">Groceries</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li role="presentation" class="disabled">
+                                    <a href="javascript:void(0)">
+                                        <div class="inline_flex">
+                                            <div class="side_icon">
+                                                <img src="assets/images/retail/small_dairy.png" class="img-responsive">
+                                            </div>
+                                            <p class="para_text_color">Dairy</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /inventory_tabs -->
+                        <div class="tab-content inventory_contents">
+                            <div role="tabpanel" class="tab-pane active" id="inventoryHelath">
+                                <div class="fist_inventory_div inline_flex">
+                                    <div class="shelf_stock_div">
+                                        <h3 class="panel_title">Shelf Stock</h3>
+                                        <div id="shelft_stock_data" class="stcok_itmes_img">
+                                            <!-- data here -->
+                                            <img id="shelf_feed" class="img-responsive" src="/assets/images/retail/shelf_stock_1.png" onerror=this.src="/assets/images/retail/shelf_stock_1.png">
+                                        </div>
+                                    </div>
+                                    <div class="misplacement_div">
+                                        <h3 class="panel_title">Misplacement</h3>
+                                        <div id="misplacement_data">
+                                            <!-- data here -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /fist_inventory_div -->
+                                <div class="second_inventory_div inline_flex">
+                                    <div class="store_div">
+                                        <h3 class="panel_title">Store</h3>
+                                        <div class="overflow_list">
+                                            <ul id="store_data" class="products_list_li">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                        <!-- /overflow_list -->
+                                    </div>
+                                    <!-- /store_div -->
+                                    <div class="warehouse_div">
+                                        <h3 class="panel_title">Warehouse</h3>
+                                        <div class="overflow_list">
+                                            <ul id="warehouse_data" class="products_list_li">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /warehouse_div -->
+                                </div>
+                                <div class="third_inventory_div inline_flex">
+                                    <div class="issue_stack_div">
+                                        <h3 class="panel_title">Issue stack</h3>
+                                        <div class="issue_stack_div_content overflow_list">
+                                            <ul id="issue_stack_data" class="products_list_li">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /issue_stack_div -->
+                                    <div class="top_selling_div">
+                                        <h3 class="panel_title">Top Selling</h3>
+                                        <div id="top_selling_data" class="top_selling">
+                                            <!-- data here -->
+                                        </div>
+                                        <!-- /top_selling -->
+                                    </div>
+                                    <!-- /top_selling_div -->
+                                </div>
+                                <!-- /third_inventory_div -->
+                                <div class="fourth_inventory_div inline_flex">
+                                    <div class="recorders_div">
+                                        <h3 class=panel_title>Reorders</h3>
+                                        <div class="table_heading">
+                                            <p class="para_text_normal">Status</p>
+                                        </div>
+                                        <div class="overflow_list">
+                                            <ul id="recorders_data" class="products_list_li">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                        <!-- /overflow_list -->
+                                    </div>
+                                    <!-- /recorders_div -->
+                                    <div class="upcoming_events_div">
+                                        <h3 class=panel_title>upcoming events</h3>
+                                        <div class="table_heading">
+                                            <p class="para_text_normal">Status</p>
+                                        </div>
+                                        <div class="overflow_list">
+                                            <ul id="upcoming_event_data" class="products_list_li">
+                                                <!-- data here -->
+                                            </ul>
+                                        </div>
+                                        <!-- /overflow_list -->
+                                    </div>
+                                    <!-- /upcoming_events_div -->
+                                </div>
+                                <!-- /fourth_inventory_div -->
+                            </div>
+                            <!-- /inventoryHelath -->
+                        </div>
+                        <!-- /inventory_contents-->
+                    </div>
+                    <!-- /Inventory -->
+                    <div id="Infra" class="main_tab tab-pane fade">
+                        <div class="infra_div">
+                            <div class="dropdown_nav">
+                                <div class="drop_dowm_img">
+                                    <img src="assets/images/retail/infra_dropdowon.png" class="img-resposnive">
+                                </div>
+                            </div>
+                            <div class="active_nonactive_support inline_flex align_items_start justify_beetween border_bottom_retail">
+                                <div class="left_content h_100">
+                                    <!-- data here -->
+                                    <div id="active_non_active_data" class="active_va_nonactive  h_100">
+                                        <h3 class="panel_title">Active VS Non Active</h3>
+                                        <div class="inline_flex justify_beetween pt_18">
+                                            <div class="active_associates">
+                                                <h5 class="caption_text active_text "></h5>
+                                                <p class="para_text_color">Active</p>
+                                            </div>
+                                            <div class="onleave_associates">
+                                                <h5 class="caption_text on_break_text"></h5>
+                                                <p class="para_text_color">Inactive</p>
+                                            </div>
+                                            <div class="onbreak_associates">
+                                                <h5 class="caption_text onleave_text"></h5>
+                                                <p class="para_text_color">Under service</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /active_va_nonactive -->
+                                    <div class="heavy_duty_cameras_div">
+                                        <h3 class="panel_title">Heavy duty Cameras</h3>
+                                        <ul id="camaras_list_data" class="camaras_list overflow_scroll pt_18">
+                                            <!-- data here -->
+                                        </ul>
+                                    </div>
+                                    <!-- /heavy_duty_cameras_div -->
+                                </div>
+                                <!-- /left_content -->
+                                <div class="right_content h_100">
+                                    <div class="support_div border_bottom_retail h_100">
+                                        <h3 class="panel_title">Support</h3>
+                                        <div class="support_content_div inline_flex pt_18">
+                                            <div class="support_panel">
+                                                <p class="para_text_normal">
+                                                    <strong>24/7 Support: </strong>Tom fred</p>
+                                            </div>
+                                            <div class="support_img">
+                                                <img src="assets/images/retail/support_icon.png" class="img-responsive">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="types_of_cameras">
+                                        <h3 class="panel_title">Types Of Cameras</h3>
+                                        <div class="about_cameras pt_18">
+                                            <div id="camaras_type_data" class="inline_flex justify_beetween text-center">
+                                                <!-- data here -->
+                                            </div>
+                                        </div>
+                                        <!-- /about_cameras -->
+                                        <div id="camaras_type_img_data" class="cameras_view">
+                                            <!-- data here -->
+                                            <img id="store_feed" class="img-responsive" src="/assets/images/retail/shelf_stock_1.png" onerror=this.src="/assets/images/retail/shelf_stock_1.png">
+                                        </div>
+                                    </div>
+                                    <!-- /types_of_cameras -->
+                                </div>
+                                <!-- /right_content -->
+                            </div>
+                            <!-- /active_nonactive_support -->
+                            <div class="network_electricity_clarity_div">
+                                <div class="inline_flex justify_beetween align_items_start h_100">
+                                    <div class="network_value">
+                                        <h3 class="panel_title">Network Value</h3>
+                                        <div class="value_content">
+                                            <h2 id="network_value_data" class="value_number">
+                                                <!-- data here -->
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <!-- /network_value -->
+                                    <div class="ele_status">
+                                        <h3 class="panel_title">Electricity Status</h3>
+                                        <div class="ele_status_content">
+                                            <div class="electricity_status eleStatus">
+                                                <div class="second circle circleProgress" data-percent="100">
+                                                    <span></span>
+                                                </div>
+                                            </div>
+                                            <!-- /eleStatus -->
+                                        </div>
+                                    </div>
+                                    <!-- /network_value -->
+                                    <div class="clarity_status">
+                                        <h3 class="panel_title">Clarity Status</h3>
+                                        <div class="ele_status_content">
+                                            <div id="clarity_status_data" class="inline_flex justify_beetween">
+                                                <!-- data here -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /clarity_status -->
+                                </div>
+                                <!-- /inline_flex -->
+                            </div>
+                            <!-- /network_electricity_clarity_div -->
+                        </div>
+                        <!-- /infra_div -->
+                    </div>
+                    <!-- /Infra -->
+                    <!-- /Infra -->
+                </div>
+                <!-- /Main tab-content -->
+            </div>
+            <!-- /right_div -->
+        </main>
+        <!-- /store_details_content -->
+        <div id="disclaimerPopup" class="modal disclmaier_popup animated fadeIn" data-easein="swoopIn" tabindex="-1" role="dialog"
+            aria-labelledby="costumModalLabel" aria-hidden="true">
+            <div class="modal-dialog animated slideInUp delay-2s">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                            <img src="assets/images/close_black.png" class="img-responsive">
+                        </button>
+                        <h4 class="modal_title text-center">
+                            Disclaimer
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            The products showcased in this booth are for general demonstration purposes only. Infosys Ltd. is not associated with any
+                            of the products displayed in any manner whatsoever and makes no warranties of any kind, either
+                            express or implied, including but not limited to warranties of merchantability, fitness for a
+                            particular purpose, of title, or of non-infringement of third party rights.
+                        </p>
+                    </div>
+                    <!-- /modal-body -->
+                </div>
+            </div>
+        </div>
+        <!-- /disclaimerPopup -->
+    </section>
+    <!-- /store_intelligence_section -->
+
+    <!-- Import and configure the Firebase SDK -->
+    <!-- These scripts are made available when the app is served or deployed on Firebase Hosting -->
+    <!-- If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup -->
+    <script src="/__/firebase/5.7.0/firebase-app.js"></script>
+    <script src="/__/firebase/5.7.0/firebase-messaging.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+    <!-- Bootstrap core JavaScript =========== -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="assets/js/aos.js"></script>
+    <script type="text/javascript" src="assets/js/chartist.min.js"></script>
+
+    <!-- to have firebase push notification functionality -->
+    <script type="text/javascript" src="assets/js/index.js"></script>
+
+    <!-- <script type="text/javascript" src="assets/plugins/chartist/js/chartist.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/chartist/js/chartist-plugin-tooltip.min.js"></script>
+      <script type="text/javascript" src="assets/plugins/chartist/js/chartist-plugin-implement.js"></script>
+      <script type="text/javascript" src="assets/plugins/chartist/js/chartist-plugin-legend.js"></script>
+      <script type="text/javascript" src="assets/plugins/chartist/js/chartist-plugin-fill-donut.js"></script>
+      <script type="text/javascript" src="assets/plugins/chartist/js/chartist-plugin-axistitle.js"></script>
+      <script type="text/javascript" src="assets/plugins/chartist/js/chartist-plugin-pointlabels.js"></script> -->
+
+    <script type="text/javascript" src="assets/js/circle-progress.js"></script>
+    <script type="text/javascript" src="assets/plugins/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/getRetail_customer.js"></script>
+    <script type="text/javascript" src="assets/js/getRetail_staff.js"></script>
+    <script type="text/javascript" src="assets/js/getRetail_inventory.js"></script>
+    <script type="text/javascript" src="assets/js/getRetail_infra.js"></script>
+    <script type="text/javascript" src="assets/js/retail_animation.js"></script>
+    <script type="text/javascript" src="assets/js/getRetail_graphs.js"></script>
+    <script type="text/javascript" src="assets/js/liveDataUpdates.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("html").on("contextmenu", function () {
+                return false;
+            });
+        });
+
+        $(document).ready(function () {
+            $chartsentiment_obj = null;
+            $footfall_peak_time_graph_obj = null;
+            $staff_strength_graph_obj = null;
+            new WOW().init();
+            AOS.init();
+            requestPermission();
+            loadAlertMsg();
+            loadRetailCustomer();
+            getAverageSaleData();
+            // loadRetailStaff();
+            // loadRetailInventory();
+            // loadRetailInfra();
+            //loadRetailAnimation();
+            liveDataUpdates();
+            networkValueRandom();
+            setInterval(function () {
+                $('.nav_date').html('');
+                $('.nav_time').html('');
+                const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+                var today = new Date();
+                //var date = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+                var date = today.getDate() + ' ' + (monthNames[today.getMonth()]) + ' ' + today.getFullYear();
+                var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+                var dateTime = date + ' ' + time;
+                $('.nav_date').html(date);
+                $('.nav_time').html(time);
+            }, 1000);
+
+            $('.tab_1_video').show();
+
+
+        });
+        function hideAllTabs() {
+            $('#Customer').hide();
+            $('#Staff').hide();
+            $('#Inventory').hide();
+            $('#Infra').hide();
+            $('.tab_1_video').hide();
+            $('.tab_2_video').hide();
+            $('.tab_3_video').hide();
+            $('.tab_4_video').hide();
+            $('#left_popup_1').hide();
+            $('#left_popup_2').hide().removeClass('overlay_body');
+            $('#left_popup_3').hide();
+            $('#left_popup_4').hide().removeClass('overlay_body');
+            $('body').removeClass("close_pop");
+
+            $('.alert_misplaced.alert_popup_dash').hide();
+
+            $('#staff_details_popup').hide();
+            $('.clickable_tabs .nav_item').removeClass("active");
+            $('.right_div .main_tab.tab-pane').removeClass("in active");
+        }
+
+        $('.retail_tabs .nav_retail .nav_item a').click(function () {
+
+            $("#videoBg").html('');
+            var get_retail_clicked_tab = $(this).attr("id");
+
+            if (get_retail_clicked_tab == "retailMenu_1") {
+                $('.slide_calandr').slick('unslick');
+                $('.offer_slider').slick('unslick');
+                $('.age_range_slide').slick('unslick');
+                $(".middle_nav_content .nav_section_title").html("Customer");
+                var load_vid = "<source src='assets/videos/store.mp4' type='video/mp4'>";
+                loadRetailCustomer();
+                getAverageSaleData();
+                hideAllTabs();
+                $('.clickable_tabs .click_1').addClass("active");
+                $('#Customer').show();
+                $('.tab_1_video').show();
+                $('#Customer.main_tab.tab-pane').addClass("in active");
+                // $('#Customer').css('opacity', '1');
+            }
+            else if (get_retail_clicked_tab == "retailMenu_2") {
+                $(".middle_nav_content .nav_section_title").html("Staff");
+                var load_vid = "<source src='assets/videos/staff.mp4' type='video/mp4'>";
+
+                loadRetailStaff();
+                loadRetailstaffStrengthGraph();
+
+                // DAILY TARGET customer
+                setTimeout(function () {
+                    $(".dailyTarget").each(function () {
+                        var $bar = $(this).find(".bar");
+                        var $val = $(this).find("span");
+                        var perc = parseInt($val.text(), 10);
+
+                        $({ p: 0 }).animate({ p: perc }, {
+                            duration: 3000,
+                            easing: "swing",
+                            step: function (p) {
+                                $bar.css({
+                                    transform: "rotate(" + (45 + (p * 1.8)) + "deg)", // 100%=180° so: ° = % * 1.8
+                                    // 45 is to add the needed rotation to have the green borders at the bottom
+                                });
+                                $val.text(p | 0);
+                            }
+                        });
+                    });
+                }, 300);
+
+                //customerRatio();
+                //$(window).scroll(customerRatio);
+                //customerEngagementRatio();
+                //$(window).scroll(customerEngagementRatio);
+                hideAllTabs();
+                $('.clickable_tabs .click_2').addClass("active");
+                $('#Staff').show();
+                $('.tab_2_video').show();
+                $('#Staff.main_tab.tab-pane').addClass("in active");
+                $('#staff_details_popup').show();
+                //$('#Staff').css('opacity', '1');
+            }
+            else if (get_retail_clicked_tab == "retailMenu_3") {
+
+                $(".middle_nav_content .nav_section_title").html("Inventory");
+                var load_vid = "<source src='assets/videos/inventory.mp4' type='video/mp4'>";
+
+                loadRetailInventory();
+                //setTimeout(function () {
+                //}, 300);
+
+                hideAllTabs();
+                $('.clickable_tabs .click_3').addClass("active");
+                $('#Inventory').show();
+                $('.tab_3_video').hide();
+                $('#left_popup_3').hide();
+                $('#Inventory.main_tab.tab-pane').addClass("in active");
+                $('.top_selling').slick('unslick');
+                //$('#Inventory').css('opacity', '1');
+            }
+            else {
+                $(".middle_nav_content .nav_section_title").html("Infra");
+                var load_vid = "<source src='assets/videos/infra.mp4' type='video/mp4'>"
+                loadRetailInfra();
+
+                electricityStatus();
+                $(window).scroll(electricityStatus);
+                hideAllTabs();
+                $('.clickable_tabs .click_4').addClass("active");
+                $('#Infra').show();
+                $('.tab_4_video').show();
+                $('#Infra.main_tab.tab-pane').addClass("in active");
+                //$('#Infra').css('opacity', '1');
+            }
+
+            $(load_vid).appendTo("#videoBg");
+            var videoPlayer = document.getElementById('videoBg');
+            videoPlayer.currentTime = 0;
+            videoPlayer.load();
+            videoPlayer.play();
+
+        });
+
+        // top alert click
+        $('#nav_toggle_btn').click(function () {
+            $('#sidenav').addClass('open-sidebar');
+            $('#sidenav').removeClass('close-sidebar');
+            loadAlertMsg();
+        });
+
+        $('.close_icon').click(function () {
+            $('#sidenav').removeClass('open-sidebar');
+            $('#sidenav').addClass('close-sidebar');
+        });
+
+        $('#disclaimerPopup').click(function () {
+            $('.modal-backdrop').hide();
+            $('#disclaimerPopup').hide();
+        });
+
+        // tab 1 click on left hand side show alert popup
+        $('#clickForAlert .tab_1_video').click(function () {
+            $('#left_popup_1').css('opacity', 1);
+            $('#left_popup_1').show();
+            $('body').addClass("close_pop");
+        });
+
+        // hide left hand side alert popup
+        $('#alertbgCancel').click(function () {
+            $('#left_popup_1').css('opacity', 0);
+            $('#left_popup_1').hide();
+        });
+
+        // tab 2 click on left hand side show alert popup
+        $('#clickForAlert .tab_2_video').click(function () {
+            $('#left_popup_2').show().addClass('overlay_body');
+            $('body').addClass("close_pop");
+        });
+
+        $('#clickForAlert .tab_4_video').click(function () {
+            $('#left_popup_4').show();
+            $('#left_popup_4').show().addClass('overlay_body');
+
+            $('body').addClass("close_pop");
+        });
+
+
+        // window.onload = function(){
+        //    var hideMe = document.getElementById('hideMe');
+        //    document.onclick = function(e){
+        //       if(e.target.id !== 'hideMe'){
+        //          hideMe.style.display = 'none';
+        //       }
+        //    };
+        // };
+
+        $('body.close_pop').click(function (e) {
+            // var hideMe = document.getElementById('left_popup_1');
+            // var hideMe1 = document.getElementById('left_popup_2');
+            // var hideMe2 = document.getElementById('left_popup_4');
+
+            console.log("hideMe_tab");
+            var hideMe_tab = $(this).attr("id");
+            console.log(hideMe_tab);
+            if (hideMe_tab !== 'left_popup_1') {
+                //hideMe.style.display = 'none';
+                $('#left_popup_1').hide();
+
+                console.log("left_popup_1");
+            }
+            else if (hideMe_tab !== 'left_popup_2') {
+                $('#left_popup_2').hide();
+                console.log("left_popup_2");
+            }
+            else if (hideMe_tab !== 'left_popup_4') {
+                $('#left_popup_4').hide();
+                console.log("left_popup_4");
+            }
+            else if (hideMe_tab === undefined) {
+                $('#left_popup_1').hide();
+                $('#left_popup_2').hide();
+                $('#left_popup_4').hide();
+                console.log("undefined closed");
+            }
+            else {
+                console.log("somethign else");
+            }
+        });
+
+        $('#left_popup_2').click(function () {
+            $('#left_popup_2').hide().removeClass('overlay_body');
+        });
+        $('#left_popup_4').click(function () {
+            $('#left_popup_4').hide().removeClass('overlay_body');
+        });
+
+
+        $(document).ready(function () {
+            window.setInterval(function () {
+                $('#left_popup_1').css('opacity', 1);
+                $('#left_popup_1').show();
+                console.log("asvav");
+                setTimeout(function () {
+                    $('#left_popup_1').css('opacity', 0);
+                    $('#left_popup_1').hide();
+                }, 7000);
+
+            }, 30000);
+        });
+
+    </script>
+</div>
